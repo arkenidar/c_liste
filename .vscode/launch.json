@@ -7,9 +7,11 @@
             "request": "launch",
             "program": "${workspaceFolder}/app.exe",
             "args": [],
+            "preLaunchTask": "make build",
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
+            // external console
             "externalConsole": true,
             "MIMode": "gdb",
             "setupCommands": [
@@ -25,6 +27,5 @@
                 }
             ]
         }
-
     ]
 }
